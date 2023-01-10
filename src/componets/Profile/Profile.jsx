@@ -1,6 +1,6 @@
 import React from "react";
+import MyPosts from "./MyPosts/MyPosts";
 import classes from './Profile.module.css';
-import {getCLS} from "web-vitals";
 
 const Profile = () => {
   return (
@@ -9,14 +9,7 @@ const Profile = () => {
       <div>
         ava + description
       </div>
-      <div>
-        My posts
-        <div>New post</div>
-        <div>
-          <div className={classes.item}>post 1</div>
-          <div className={classes.item}>post 2</div>
-        </div>
-      </div>
+      <MyPosts/>
     </div>
   )
 }
