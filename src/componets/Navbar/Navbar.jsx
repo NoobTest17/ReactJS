@@ -8,19 +8,19 @@ const Navbar = () => {
   return (
     <nav className={classes.nav}>
       <div className={classItem}>
-        <NavLink to="/profile" className = { (navData) => navData.isActive ? classes.active : classes.item }}>Profile</NavLink>
+        <NavLink to="/profile" className = {classes.item}>Profile</NavLink>
       </div>
       <div className={classItem}>
-        <NavLink to="/dialogs" className = { (navData) => navData.isActive ? classes.active : classes.item }>Messages</NavLink>
+        <NavLink to="/dialogs" className = {classes.item}>Messages</NavLink>
       </div>
       <div className={classItem}>
-        <NavLink to="/news" className = { (navData) => navData.isActive ? classes.active : classes.item }}>News</NavLink>
+        <NavLink to="/news" className = {classes.item}>News</NavLink>
       </div>
       <div className={classItem}>
-        <NavLink to="/music" className = { (navData) => navData.isActive ? classes.active : classes.item }}>Music</NavLink>
+        <NavLink to="/music" className = {classes.item}>Music</NavLink>
       </div>
       <div className={classItem}>
-        <NavLink to="/settings" className = { (navData) => navData.isActive ? classes.active : classes.item }}>Settings</NavLink>
+        <NavLink to="/settings" className = {classes.item}>Settings</NavLink>
       </div>
     </nav>
   )
