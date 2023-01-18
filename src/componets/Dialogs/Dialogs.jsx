@@ -20,6 +20,14 @@ const Message = (props) => {
 }
 
 const Dialogs = (props) => {
+  const dialogsData = [
+    {id: 'nika', name: 'Nika'},
+    {id: 'anna', name: 'anna'},
+    {id: 'maxim', name: 'Maxim'},
+    {id: 'alex', name: 'Alex'},
+    {id: 'luda', name: 'Luda'},
+  ];
+
   return (
     <div className={classes.dialogs}>
       <div className={classes.dialogsItem}>
